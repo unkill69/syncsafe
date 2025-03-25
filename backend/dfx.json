@@ -1,0 +1,23 @@
+{
+  "canisters": {
+    "syncsafe": {
+      "main": "main.mo",
+      "type": "motoko"
+    },
+    "syncsafe_assets": {
+      "dependencies": ["syncsafe"],
+      "frontend": {
+        "entrypoint": "dist/index.html"
+      },
+      "source": ["dist/"],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
+
